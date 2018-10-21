@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LTYNavigationDropdownMenu.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    LTYNavigationDropdownMenu *dropdownMenu = [[LTYNavigationDropdownMenu alloc] initWithNavigationController:self.navigationController];
+    self.navigationItem.titleView = dropdownMenu;
+    
+    
 }
 
 

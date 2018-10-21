@@ -13,6 +13,7 @@
 		0902F99021761AAB009A189A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0902F98F21761AAB009A189A /* Assets.xcassets */; };
 		0902F99321761AAB009A189A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0902F99121761AAB009A189A /* LaunchScreen.storyboard */; };
 		0902F99621761AAB009A189A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902F99521761AAB009A189A /* main.m */; };
+		0902F99F21761B30009A189A /* LTYNavigationDropdownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0902F99E21761B30009A189A /* LTYNavigationDropdownMenu.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0902F99221761AAB009A189A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0902F99421761AAB009A189A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0902F99521761AAB009A189A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0902F99D21761B30009A189A /* LTYNavigationDropdownMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTYNavigationDropdownMenu.h; sourceTree = "<group>"; };
+		0902F99E21761B30009A189A /* LTYNavigationDropdownMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTYNavigationDropdownMenu.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		0902F97A21761AA9009A189A = {
 			isa = PBXGroup;
 			children = (
+				0902F99C21761AE7009A189A /* main */,
 				0902F98521761AA9009A189A /* LTYNavigationDropdownMenu */,
 				0902F98421761AA9009A189A /* Products */,
 			);
@@ -58,6 +62,15 @@
 		0902F98521761AA9009A189A /* LTYNavigationDropdownMenu */ = {
 			isa = PBXGroup;
 			children = (
+				0902F99D21761B30009A189A /* LTYNavigationDropdownMenu.h */,
+				0902F99E21761B30009A189A /* LTYNavigationDropdownMenu.m */,
+			);
+			path = LTYNavigationDropdownMenu;
+			sourceTree = "<group>";
+		};
+		0902F99C21761AE7009A189A /* main */ = {
+			isa = PBXGroup;
+			children = (
 				0902F98621761AA9009A189A /* AppDelegate.h */,
 				0902F98721761AA9009A189A /* AppDelegate.m */,
 				0902F98921761AA9009A189A /* ViewController.h */,
@@ -68,7 +81,7 @@
 				0902F99421761AAB009A189A /* Info.plist */,
 				0902F99521761AAB009A189A /* main.m */,
 			);
-			path = LTYNavigationDropdownMenu;
+			path = main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0902F98B21761AA9009A189A /* ViewController.m in Sources */,
+				0902F99F21761B30009A189A /* LTYNavigationDropdownMenu.m in Sources */,
 				0902F99621761AAB009A189A /* main.m in Sources */,
 				0902F98821761AA9009A189A /* AppDelegate.m in Sources */,
 			);
@@ -285,7 +299,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GA28455H49;
-				INFOPLIST_FILE = LTYNavigationDropdownMenu/Info.plist;
+				INFOPLIST_FILE = "/Users/lty/Desktop/project/ios developer/LTYNavigationDropdownMenu/main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GA28455H49;
-				INFOPLIST_FILE = LTYNavigationDropdownMenu/Info.plist;
+				INFOPLIST_FILE = "/Users/lty/Desktop/project/ios developer/LTYNavigationDropdownMenu/main/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
